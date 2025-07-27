@@ -3,6 +3,8 @@
 
 from datetime import datetime, timedelta
 import pandas as pd
+from flask import Flask
+app = Flask(__name__)
 
 # === User System Constants ===
 BREWZILLA_EFFICIENCY = 0.7438  # 74.38%
